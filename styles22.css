@@ -1,0 +1,185 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #f4f4f4;
+    background-color: #121212; /* Dark background */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #1e1e1e;  /* Dark header */
+    color: #f4f4f4;
+    padding: 20px 0;
+}
+
+header .logo {
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 20px;
+    color: #fff; /* White text */
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #ff8c00;  /* Hover effect color */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1a1a1a; /* Dark background for hero */
+    color: #f4f4f4;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: left;
+}
+
+.hero .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;  /* Space between image and text */
+    border: 4px solid #ff8c00;  /* Adding a minimal border */
+}
+
+.hero .hero-text {
+    max-width: 500px;  /* Limit the text width */
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #fff;  /* White text */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #aaa; /* Lighter text color */
+}
+
+/* About Section */
+.about, .skills, .projects, .contact {
+    padding: 60px 0;
+    background-color: #1e1e1e;  /* Dark background */
+    color: #f4f4f4;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #bbb; /* Slightly lighter text */
+}
+
+/* Skills Section */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333; /* Dark background for skills */
+    border-radius: 5px;
+    color: #fff;  /* White text */
+}
+
+/* Projects Section */
+.projects {
+    background-color: #1e1e1e;
+}
+
+.project-card {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #f4f4f4;  /* White text */
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #ff8c00;  /* Orange color for project titles */
+}
+
+/* Contact Section */
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #fff;  /* White text */
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #ff8c00;  /* Orange links */
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+    color: #fff;  /* White on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+    color: #bbb; /* Light gray text */
+}
